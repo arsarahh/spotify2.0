@@ -1,0 +1,144 @@
+.bodyheader{
+  background-color: #1e1e1f;
+  width: 100%;
+  height:15% ;
+}
+
+#logo img{
+
+  width: 50px;
+/*   border-radius: 50%; */
+  margin: 7px;
+  
+  
+}
+
+#logoname , .sidebar h1{
+  color: #1DB954;
+}
+
+#logo{
+  display: flex;
+  
+}
+
+body{
+  background-color: black;
+}
+
+
+
+
+.secconhoveff{
+  display: flex;
+  width: 85%;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+}
+
+.coverimg{
+  width: 25%;
+  height:50%;
+  margin: 10px;
+}
+.coverimg img{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+.sectionheading{
+  color: white;
+  padding-left: 32px;
+  font-size: 30px;
+}
+
+.covimg img{
+  width: 75%;
+  height: 75%;
+  border-radius: 100px;
+  
+}
+
+.covimg{
+  width: 25%;
+  height:50%;
+  margin: 10px;
+  
+}
+
+#maindiv{
+  padding: 50px;
+  background-color: #000000; 
+  
+}
+
+.upcoming{
+  background-color: #373434;
+  margin: 0px;
+  padding: 0px;
+}
+
+.artistimg{
+  border-radius: 50%;
+  border: 3px solid #1DB954; 
+  height: 165px;
+  width: 165px;
+  overflow: hidden;
+  margin: 10px;
+  
+}
+
+/* .sectioncontent{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+} */
+.artistimg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+/*   border: 3px solid #1DB954; */
+}
+
+.artistimg:hover img{
+  filter: blur(4px);
+}
+
+.artistimg:hover p{
+  color: #ffffff;
+  padding-left: 12px;
+  transform: translateY(-120px);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.sidebar{
+  width: 250px;
+  height: 100%;
+  background-color: #3e3c3c;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+  
+}
+
+.sidebar a{
+  padding: 6px 8px 6px 16px;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar h1{
+  padding: 20px;
+}
